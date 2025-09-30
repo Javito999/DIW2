@@ -1,0 +1,17 @@
+.parrafos{
+    color: red;
+}
+a {
+
+    color: #CC3300;
+}
+.parrafoId{
+
+    color: #336699;
+}
+#divEm{
+    background: #fbd0dd; padding: .1em
+}
+.especial{
+     background: #FFCC99; border: 1px solid #FF9900
+}
