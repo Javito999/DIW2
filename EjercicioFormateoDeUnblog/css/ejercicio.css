@@ -1,0 +1,18 @@
+h1{
+color: rgb(131, 131, 235);   
+text-align: center;
+}
+body{
+    background: rgb(231, 228, 228);
+}
+header{
+    background: white;
+    padding-left: 0%;
+}
+h2{
+    color: rgb(131, 131, 235);
+}
+.post-head{
+
+    border-bottom-color:  rgb(131, 131, 235) ;
+}
