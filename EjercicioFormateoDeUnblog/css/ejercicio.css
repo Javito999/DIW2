@@ -3,16 +3,40 @@ color: rgb(131, 131, 235);
 text-align: center;
 }
 body{
-    background: rgb(231, 228, 228);
+   background-color: rgb(231, 228, 228);
+   margin: 0px;
+   padding: 0px;
 }
 header{
     background: white;
-    padding-left: 0%;
-}
+    padding-top: 0%;
+   }
 h2{
-    color: rgb(131, 131, 235);
+    color: black;
 }
 .post-head{
 
     border-bottom-color:  rgb(131, 131, 235) ;
 }
+.article{
+    padding: 10px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px groove rgb(216, 214, 214);
+}
+footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+small{
+    color: rgb(105, 134, 230);
+}
+hr{
+    border-color: rgb(105, 134, 230);
+}
+
+
