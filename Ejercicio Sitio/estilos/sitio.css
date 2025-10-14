@@ -1,0 +1,35 @@
+#container{
+    width: auto;
+    height: 150px;
+}
+h1{
+    color: blueviolet;
+}
+#header h1 {
+    float: left;
+    margin-left: 15px;
+    margin-top: 8px;
+   
+
+}
+#searchBox{
+    float: right;
+    background-color: rgb(50, 104, 50);   
+    width: 200px;
+    height: 30px;
+    padding: 3px;
+}
+#header form input[type="text"]{
+float: right;
+  
+
+}
+#header form[type="submit"]{
+float: right;
+
+
+}
+#menu{
+    float: left;
+    clear: both;
+}
