@@ -24,12 +24,15 @@ body {
 #searchBox {
     float: right;
     margin-top: -35px;
+    border: 4px solid rgb(167, 201, 167);
+    
 }
+
 
 #searchBox input.text {
     padding: 5px 10px;
     border: 1px solid #ccc;
-    border-radius: 6px;
+    border: none;
     width: 200px;
 }
 
@@ -37,7 +40,7 @@ body {
     background-color: #9b59b6;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-left: 4px solid rgb(167, 201, 167);
     padding: 6px 12px;
     cursor: pointer;
     margin-left: 5px;
@@ -47,11 +50,25 @@ body {
 #searchBox input.submit:hover {
     background-color: #8e44ad;
 }
+#imagen{
+    float: left;
+    
+    
+}
+img{
+    width: 23px;
+    height: 23px;
+}
+
 
 
 #menu {
-    background-color: #f6e58d;
+  background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(116, 128, 57, 1) 0%, rgba(237, 221, 83, 1) 43%);
+  /*  background-color: #f6e58d;*/
     padding: 10px 0;
+    width: 100%;
+    height: 30px;
 }
 
 #menu ul {
@@ -67,16 +84,20 @@ body {
 }
 
 #menu ul li a {
-    text-decoration: none;
-    color: #6c5ce7;
-    font-weight: bold;
+   
+    
     padding: 8px 15px;
+    transition: color 0.3s ease;
+    
 }
 
-#menu ul li a.active,
+
 #menu ul li a:hover {
-    border-bottom: 3px solid #f1c40f;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
 }
+
 
 
 #introduction {
@@ -105,6 +126,7 @@ body {
 
 #leftsidebar h3, #rightsidebar h3 {
     color: #8e44ad;
+    
 }
 
 #leftsidebar ul, #rightsidebar ul {
@@ -112,28 +134,44 @@ body {
     padding: 0;
 }
 
-#leftsidebar ul li, #rightsidebar ul li {
+ #rightsidebar ul li a{
     margin-bottom: 10px;
+    transition: color 0.3s ease;
+
+    
+}
+#leftsidebar ul li a{
+      margin-bottom: 10px;
+    transition: color 0.3s ease;
+
+}
+#rightsidebar ul li a:hover {
+    color: black;
+    font-size: 20px;
+    
+}
+#leftsidebar ul li a:hover{
+     color: black;
+    font-size: 20px;
 }
 
-#leftsidebar ul li::before {
-    content: "❌ ";
-    color: red;
+
+.arrow{
+    width: 15px;
+    height: 15px;
+}
+.tick{
+    width: 15px;
+    height: 15px;
 }
 
-#rightsidebar ul li::before {
-    content: "✔️ ";
-    color: green;
-}
 
 #leftsidebar a, #rightsidebar a {
     text-decoration: none;
     color: #8e44ad;
 }
 
-#leftsidebar a:hover, #rightsidebar a:hover {
-    text-decoration: underline;
-}
+
 
 
 .clear {
@@ -142,7 +180,8 @@ body {
 
 
 .footer {
-    background-color: #f6e58d;
+background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(116, 128, 57, 1) 0%, rgba(237, 186, 83, 1) 43%);
     text-align: center;
     padding: 10px;
     color: #333;
