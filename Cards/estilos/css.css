@@ -40,7 +40,7 @@ color: rgb(170, 169, 169);
 
 @media screen and (min-width:768px) {
     #div1{
-        flex: 0 1 calc(33% - 1rem);
+        flex: 1 1 calc(33% - 1rem);
     }
 }
 
@@ -56,5 +56,8 @@ button{
     text-transform: uppercase;
     font-size: 10px;
     color: white;
+}
+.rojo{
+    color: rgb(226, 102, 102);
 }
 
