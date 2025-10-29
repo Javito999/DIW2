@@ -1,0 +1,14 @@
+body{
+    
+}
+#menu1{
+    display: flex;
+    background-color: rgb(93, 93, 216);
+    align-items: baseline;
+    justify-content: space-around;
+}
+ul li{
+   
+    color: white;
+
+}
