@@ -243,3 +243,121 @@ body {
   }
 }
 
+/*menu 4*/
+
+#menu4 {
+      background-color: #3b5998; 
+      display: flex;
+      justify-content: flex-end; 
+      align-items: center;
+      gap: 25px;
+      padding: 12px 30px;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    #menu4 a {
+      color: white;
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    /*menu 5*/
+    nav#menu {
+      position: relative; 
+      background-color: #3b5998;
+      display: flex;
+      justify-content: flex-start;  
+      align-items: center;
+      padding: 10px 30px;
+      flex-wrap: wrap;
+    }
+
+    
+    ul.menu-principal {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    ul.menu-principal li {
+      position: relative;
+    }
+
+    ul.menu-principal > li {
+      margin-right: 20px;
+    }
+
+    ul.menu-principal a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      display: block;
+      
+    }
+
+    ul.menu-principal a:hover {
+      background-color: #2d4373;
+    }
+
+    
+    ul.submenu1 {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #d9534f;
+      list-style: none;
+      min-width: 150px;
+    }
+
+    ul.submenu1 li a {
+      color: white;
+    }
+
+    ul.menu-principal li:hover > ul.submenu1 {
+      display: block;
+    }
+
+    
+    #menu5 {
+      position: absolute;
+      top: 10px;
+      right: 30px;
+      display: flex;
+      gap: 20px;
+    }
+
+    #menu5 a {
+      color: white;
+      font-size: 1.2rem;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    #menu5 a:hover {
+      color: #dfe3ee;
+      transform: scale(1.1);
+    }
+
+    
+    @media (max-width: 768px) {
+      nav#menu {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 50px; 
+      }
+      ul.menu-principal {
+        flex-direction: column;
+        width: 100%;
+      }
+      ul.menu-principal > li {
+        margin-right: 0;
+        width: 100%;
+      }
+      #menu5 {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+      }
+    }
