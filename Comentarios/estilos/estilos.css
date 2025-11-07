@@ -12,6 +12,7 @@ section{
     display: flex;
    /* flex-wrap: wrap;*/
    flex-direction: column;
+   flex-wrap: wrap;
     
 }
 div{
@@ -28,13 +29,14 @@ div img{
 
 }
 div p{
-   /* margin-left: 10px;
-    flex-grow: 1;*/
+   margin-left: 10px;
+    
 }
 #divMedio{
     background-color: rgb(214, 211, 211);
-    margin-left: auto;
-    width: 70%;
+    /*margin-left: auto;*/
+    width: 80%;
+    align-self: flex-end;
 }
 
 
