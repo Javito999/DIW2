@@ -1,0 +1,67 @@
+/* estilos/estilos.css */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+/* Menú escritorio */
+nav {
+  display: flex;
+  background: #000;
+  padding: 10px;
+}
+.menu-item {
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Estilos base para icono y menú móvil */
+#iconoMenu { display: none; } /* checkbox oculto */
+.icon-label {
+  display: none;                /* visible solo en móvil (media query) */
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1010;
+}
+
+/* Menú desplegable: oculto por defecto */
+#menuDesplegable {
+  display: none;
+  flex-direction: column;
+  background-color: black;
+  left: 10px;
+  min-width: 160px;
+  z-index: 1000;
+  
+}
+#menuDesplegable a {
+  color: #fff;
+  text-decoration: none; 
+  padding: 12px 16px;
+  display: block;
+}
+#menuDesplegable a:hover { background: #222; }
+
+
+@media (max-width: 600px) {
+  
+  nav { display: none; }
+  .icon-label { display: inline-block; }
+
+  
+  #iconoMenu:checked + .icon-label + #menuDesplegable {
+    display: flex;
+  }
+}
+
+
+@media (min-width: 601px) {
+  #menuDesplegable { display: none !important; }
+  .icon-label { display: none !important; }
+}
