@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(66, 64, 64);
+    height: 100%;
+    width: 100%;
+}
+#contenedor{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+#seccionIzquierda{
+    flex: 1;
+}
+#seccionIzquierda img{
+    width: 100%;
+    height: 100%;
+}
+#seccionDerecha{
+   gap: 4rem;
+    padding: 20px;
+    flex: 1;
+    background-color: rgb(66, 64, 64);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+#enlaces{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    margin-right: 15px;
+   
+    
+}
+
+#enlaces a{
+    color: white;
+}
+#autor{
+    align-self: flex-start;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 1rem;
+}
+#programador{
+    color: grey;
+}
+button{
+align-self: flex-start;
+width: 100px;
+height: 50px;
+
+
+
+}
+@media (max-width: 600px){
+    #contenedor{
+        flex-direction: column;
+        height: auto;
+    }
+}

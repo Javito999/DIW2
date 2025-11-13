@@ -1,0 +1,98 @@
+body {
+      background-color: rgb(13, 1, 62);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+}
+
+h1 {
+      color: white;
+
+}
+
+  
+#contenedor {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-bottom: 60px;
+}
+
+  
+.plan {
+      background-color: white;
+      width: 280px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 20px;
+}
+
+.plan.popular {
+      background-color: #6f4ef6;
+      color: white;
+      
+}
+
+.etiqueta {
+      background-color: #ffce00;
+      color: black;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+}
+
+.plan h2 {
+      margin: 10px 0; }
+
+.precio {
+      font-size: 2em;
+      margin: 10px 0;
+}
+
+.plan ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      width: 100%;
+}
+
+.plan ul li {
+      text-align: left;
+      padding: 5px 0;
+      
+}
+
+.plan.popular ul li {
+      border-color: rgba(255,255,255,0.2);
+}
+
+.boton {
+      background-color: #7a36f0;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+     
+}
+
+    
+
+.plan.popular .boton {
+      background-color: white;
+      color: #6f4ef6;
+}
+
+@media (max-width: 600px) {
+  .contenedor {
+    flex-direction: column; 
+    align-items: center;    
+}
+
+}
