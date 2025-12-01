@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(221, 218, 218);
+    display: grid;
+}
+
+div{
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+img{
+    flex-grow: 1;
+}
+button{
+    background-color: rgb(35, 35, 212);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+p{
+    color: grey;
+}
