@@ -1,0 +1,13 @@
+.container .row .columna span{
+color: grey;
+font-size: small;
+
+}
+body{
+    background-color: rgb(223, 215, 215);
+}
+.container{
+    width: 95%;
+    height: 100mvh;
+}
+
