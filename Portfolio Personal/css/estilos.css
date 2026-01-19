@@ -1,13 +1,38 @@
-.container .row .columna span{
-color: grey;
+.container .row .encabezado
+ span{
+color: rgb(204, 203, 203);
 font-size: small;
 
 }
 body{
-    background-color: rgb(223, 215, 215);
+    background-color: rgb(230, 225, 225);
 }
 .container{
     width: 95%;
     height: 100mvh;
 }
+.container .row .columna1{
 
+    background-color: rgb(112, 112, 240);
+    color: white;
+    height: 4rem;
+}
+.container .row .columna1 a{
+    color: white;
+}
+.container .row .columna2{
+
+    background-color: rgb(70, 70, 238);
+    color: white;
+}
+.container .row .columna2 a{
+    color: white;
+}
+.container .row .columna3{
+
+    background-color: rgb(15, 15, 238);
+    color: white;
+}
+.container .row .columna3 a{
+    color: white;
+}
